@@ -29,7 +29,6 @@ public class OpenCSVReader {
             }
         }
     }
-
     private static void readAllRecordAtOnce() throws IOException {
         try (
                 Reader reader = Files.newBufferedReader(Paths.get(SAMPLE_CSV_FILE_PATH));
